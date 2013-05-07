@@ -1,0 +1,18 @@
+/*==================================================================================================
+	Gastronomia e Sabores // Style Home
+ =================================================================================================*/
+.box{
+	background-color: #FFF;
+	display: block;
+	margin-bottom: 15px;
+	padding: 8px;
+	position: relative;
+	text-align: justify;
+	width: 281px;
+}
+.bio{
+	color: #999;
+	font-size: .8em;
+	margin-top: 12px;
+	position: relative;
+}

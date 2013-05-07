@@ -1,0 +1,89 @@
+/*==================================================================================================
+	Gastronomia e Sabores // Style Base
+ =================================================================================================*/
+
+ body{background-color: #E1E1E1; font-family: 'Ovo', serif; margin: 0;}
+
+ /* Links */
+ a, a:link, a:visited{color: #000; text-decoration: none;}
+
+/* Comp */
+h3, p{margin: 4px 0 4px 0;}
+
+/* Palheta Texto*/
+.text-comp{color: #993366;} .text-saudavel{color: #0F7403;} .text-petiscos{color: #E74808;}
+.text-receitas{color: #B00007;} .text-confeitaria{color: #E30088;} .text-mais{color: #666;}
+.text-subtext{color: #333;}
+
+/* Palheta Box */
+.box-comp{border-left:3px solid  #993366;} .box-saudavel{border-left:3px solid  #0F7403;}
+.box-petiscos{border-left:3px solid  #E74808;} .box-receitas{border-left:3px solid  #B00007;}
+.box-confeitaria{border-left:3px solid  #E30088;} .box-mais{border-left:3px solid  #666;}
+
+ /* Font ======================================================================================== */
+ @font-face {
+    font-family: 'ovoregular';
+    src: url('../font/ovo-regular-webfont.eot');
+    src: url('../font/ovo-regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../font/ovo-regular-webfont.woff') format('woff'),
+         url('../font/ovo-regular-webfont.ttf') format('truetype'),
+         url('../font/ovo-regular-webfont.svg#ovoregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+/* Topo ========================================================================================= */
+.top-all{
+	background-color: #FFF;
+	box-shadow: 0 0 15px #CCC;
+	display: block;
+	height: 181px;
+	position: relative;
+	width: 100%;
+}
+.top-in{
+	height: 100%;
+	margin-left: auto;
+	margin-right: auto;
+	position: relative;
+	width: 1250px;
+}
+.logo{
+	background-image: url("../img/logo.png");
+	background-repeat: no-repeat;	
+	background-size: 100%;
+	display: border-left: ;
+	height: 103px;
+	margin-bottom: 10px;
+	position: absolute;
+	top: 15px;
+	width: 268px;
+}
+.menu{
+	font-size: 1.3em;
+	position: relative;
+	top: 150px;
+	width: 611px;
+}
+.menu ul{margin: 0; padding: 0; list-style: none;}
+.menu li{display: inline-block; margin-right: 15px;}
+.menu-comp, .menu-saudavel, .menu-petiscos, .menu-receitas, .menu-confeitaria, .menu-mais{
+-webkit-transition: all .5s ease-in-out;
+-moz-transition: all .5s ease-in-out;
+-o-transition: all .5s ease-in-out;
+-ms-transition: all .5s ease-in-out;
+transition: all .5s ease-in-out;
+}
+.menu-comp:hover{color: #993366;} .menu-saudavel:hover{color: #119104;}
+.menu-petiscos:hover{color: #E74808;} .menu-receitas:hover{color: #B00007;}
+.menu-confeitaria:hover{color: #E30088;} .menu-mais:hover{color: #666;}
+
+/* Content ====================================================================================== */
+.content{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	padding-top: 15px;
+	position: relative;
+	width: 1250px;
+}

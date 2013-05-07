@@ -1,0 +1,86 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+	<meta charset="UTF-8">
+	<title>Gastronomia e Sabores</title>
+
+	<!--[if IE]>
+	<meta http-equiv="X-UA-Compatible" content="IE=EmulateIE7, IE=9" />
+	<meta content='IE=8' http-equiv='X-UA-Compatible' />
+	<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+	<![endif]-->
+
+	<!-- Style -->
+	<link rel="stylesheet" type="text/css" href="assets/style/base.css"/>
+	<link rel="stylesheet" type="text/css" href="assets/style/home.css"/>
+
+</head>
+<body>
+	
+	<!-- start -topo- -->
+		<header class="top-all">
+			<div class="top-in">	
+				<div class="logo"></div>
+				<nav class="menu">
+					<ul>
+						<li><a href="#" class="menu-receitas">receitas</a></li>
+						<li><a href="#" class="menu-petiscos">petiscos</a></li>
+						<li><a href="#" class="menu-confeitaria">confeitaria</a></li>
+						<li><a href="#" class="menu-saudavel">alimentação saudável</a></li>
+						<li><a href="#" class="menu-mais">+mais</a></li>
+					</ul>
+				</nav>
+			</div>
+		</header>
+	<!-- end -topo- -->
+
+	<!-- start -content- -->
+		<section class="content">
+
+			<!-- start -box- -->
+				<section class="box box-saudavel">
+					<img src="assets/img/img.png" width="281" />
+					<h3 class="text-saudavel">Três saladas para o verão.</h3>
+					<p class="text-subtext text">
+						Dicas para montar saladas saborosas usando 
+						alimentos pouco calóricos e molhos leves 
+						para incrementar	
+					</p>
+					<div class="bio">
+						por Fulando <br/>
+						em 00/00/00
+					</div>
+				</section>
+			<!-- end -box- -->
+
+			<!-- start -box- -->
+				<section class="box box-petiscos">
+					<img src="assets/img/img2.png" width="281" />
+					<h3 class="text-petiscos">Minibatatas com alho assado e creme de queijo</h3>
+					<p class="text-subtext text">
+						Versátil, a batata rende deliciosas porções
+						que podem ser servidas com carne 
+						vermelha, aves ou peixe. 	
+					</p>
+					<div class="bio">
+						por Fulando <br/>
+						em 00/00/00
+					</div>
+				</section>
+			<!-- end -box- -->
+			
+		</section>
+	<!-- end -content- -->
+
+	<!-- Script -->
+	<script src="assets/js/jquery-1.9.0.min.js" type="text/javascript"></script>
+	<script src="assets/js/jquery.masonry.min.js" type="text/javascript"></script>
+	<script type="text/javascript">
+		$(".content").masonry({
+			itemSelector: '.box',
+			 columnWidth: 312
+		});
+	</script>
+	
+</body>
+</html>	
