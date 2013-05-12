@@ -1,0 +1,38 @@
+/*==================================================================================================
+  Gastronomia e Sabores // Style Post
+ =================================================================================================*/
+.break {clear: both;}
+
+/*/ Palheta Veja Mais /*/
+.veja-saudavel{border:3px solid  #0F7403;} .veja-petiscos{border:3px solid  #E74808;} 
+.veja-receitas{border:3px solid  #B00007;} .veja-confeitaria{border:3px solid  #E30088;} 
+.veja-mais{border:3px solid  #666;}
+
+.post{
+	background-color: #FFF;
+	display: block;
+	margin-bottom: 15px;
+	padding: 8px;
+	text-align: justify;
+	width: 880px;
+}
+.veja-mais-box{
+	width: 420px;
+	height: 130px;
+	float: left;
+	position: relative;
+	margin: 10px 10px 0px 10px;
+}
+.veja-mais-box-img{
+	width: 160px; 
+	height: 120px; 
+	position: relative; 
+	float: left; 
+	margin-right: 10px;
+}
+.veja-mais-box-texto{
+	width: 240px; 
+	height: 120px; 
+	position: relative;
+ 	float: left;
+}
